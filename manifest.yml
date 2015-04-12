@@ -3,8 +3,8 @@ applications:
   - catsat-cloudantNoSQLDB
   - catsat-MonitoringAndAnalytics
   disk_quota: 1024M
-  host: catsat
-  name: catsat
+  host: catsatnasa
+  name: catsatnasa
   command: node app.js
   path: .
   domain: mybluemix.net
