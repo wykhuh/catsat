@@ -121,4 +121,5 @@ window.onload = function() {
     addMarkers();
 
     map.addLayer(layer);
+
 };
