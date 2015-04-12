@@ -22,15 +22,16 @@
     width: 600px;
     height: 300px;
 }
+
 .marker-menu {
     background: #eee;
     width: 50px;
     height: 300px;
     border: 1px solid #fff;
-    float: left;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    float: right;
+
 }
+
 .draggable-marker {
     width: 20px;
     margin: 12px;
@@ -39,7 +40,7 @@
 }
 
 #map {
-    background-color: #000000;
+    /*background-color: #000000;*/
 /*    position: absolute;
     top: 0;
     left: 0;
@@ -47,7 +48,7 @@
     height: 80%;*/
 }
 
-.leaflet-container .leaflet-control-attribution {
+/*.leaflet-container .leaflet-control-attribution {
     padding: 1em;
     bottom: 1em;
     right: 1em;
@@ -65,7 +66,7 @@
 .leaflet-container .leaflet-control-attribution a:hover {
     color: rgb(255, 255, 255);
     text-decoration: underline;
-}
+}*/
 
 .leaflet-bar a {
     background: rgba(40, 40, 40, 0.8);
