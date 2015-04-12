@@ -4,7 +4,7 @@ angular.module('spaceappApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('identify', {
-        url: '/identify',
+        url: '/',
         templateUrl: 'app/identify/identify.html',
         controller: 'IdentifyCtrl'
       });

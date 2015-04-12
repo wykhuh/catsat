@@ -2,28 +2,7 @@
 
 angular.module('spaceappApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
-    $scope.menu = [{
-      'title': 'Home',
-      'link': '/'
-    },
-    {
-      'title': 'Identify',
-      'link': '/identify'
-    },
-    {
-      'title': 'Vote',
-      'link': '/vote'
-    },
-    {
-      'title': 'Leaderboard',
-      'link': ''
-    },
-    {
-      'title': 'Profile',
-      'link':'http://catsat-game.bluemix.net'
-    }
 
-    ];
 
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;
