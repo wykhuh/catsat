@@ -15,6 +15,7 @@ angular.module('spaceappApp')
 
       $( '.draggable-marker' ).draggable({
         stop: function ( e, ui ) {
+          console.log('djfjljlj')
 
           // get information about clicked icon
           url = e.target.src;
