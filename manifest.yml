@@ -1,11 +1,10 @@
 applications:
 - services:
-  - catsat-cloudantNoSQLDB
-  - catsat-MonitoringAndAnalytics
+  - MongoLab-lk
   disk_quota: 1024M
-  host: catsat
-  name: catsat
-  command: node app.js
+  host: catsatnasa
+  name: catsatnasa
+  command: grunt serve
   path: .
   domain: mybluemix.net
   instances: 1
