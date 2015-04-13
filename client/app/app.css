@@ -7628,12 +7628,13 @@ button.close {
   z-index: 10;
   top: 30px;
   left: 30px;
-  width: 25%;
+  width: 190px;
   padding: 5px;
   text-align: center;
 }
 #nav {
   z-index: 10;
+  padding: 0 10px;
   text-align: left;
 }
 #nav ul {
@@ -7653,9 +7654,9 @@ button.close {
   margin-top: 30px;
   border-radius: 10px;
   height: 40px;
-  width: 27%;
+  width: 20%;
   background: rgba(255, 255, 255, 0.8);
-  margin-left: 71%;
+  margin-left: 78%;
 }
 #navbar li {
   list-style: none;
@@ -7689,4 +7690,8 @@ button.close {
 #multimaps {
   width: 70%;
   margin-left: 34%;
+}
+#multimaps img {
+  width: 100%;
+  margin-bottom: 20px;
 }
