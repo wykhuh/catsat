@@ -1,7 +1,7 @@
 <div ng-include="'components/navbar/navbar.html'"></div>
 <div ng-include="'components/sidebar/sidebar.html'"></div>
 
-<div id="tagsbar" >
+<div  ng-show="isLoggedIn()" id="tagsbar" >
   <img class="draggable-marker" id="cloud" src="assets/images/cloud_icon2.png" alt="marker" />
   <img class="draggable-marker" id ="volcano" src="assets/images/volcano_icon2.png" alt="marker" />
   <img class="draggable-marker" id ="mountain" src="assets/images/mountain_icon2.png" alt="marker" />

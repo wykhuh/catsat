@@ -2,6 +2,7 @@
 
 angular.module('spaceappApp')
   .controller('IdentifyCtrl', function ($scope, Auth, identifyFactory) {
+    $scope.isLoggedIn = Auth.isLoggedIn;
 
     var markers = [], // an array containing all the markers added to the map
     markersCount = 0; // the number of the added markers
